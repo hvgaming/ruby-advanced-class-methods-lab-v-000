@@ -25,7 +25,7 @@ class Song
     self.all.detect {|i| i.name == string_name_of_the_song}
   end
   def self.find_or_create_by_name(name)
-  self.find_by_name(name) || self.create(name)
+ 
    	  
   end
 
