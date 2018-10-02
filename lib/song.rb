@@ -33,7 +33,7 @@ class Song
       s.save 
       s
     else
-     create_by_name
+     find_by_name
     end
   end 
 
