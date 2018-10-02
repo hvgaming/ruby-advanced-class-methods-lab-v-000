@@ -4,6 +4,7 @@ class Song
 
   def self.all
     @@all
+    @@create
   end
 
   def save
